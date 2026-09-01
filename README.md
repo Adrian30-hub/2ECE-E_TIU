@@ -1,8 +1,8 @@
 <img width="687" height="407" alt="image" src="https://github.com/user-attachments/assets/8dce8e1f-2aa5-4290-bf8d-82f8074a15a8" /> 
 
-### 1) Word Rotation Problem - Creates a function that shifts the first letter of a word to the end.
+#### 1) Word Rotation Problem - Creates a function that shifts the first letter of a word to the end.
 
-`python
+```python
 
 def rotate_word(text):
     # Check if the input string is not empty to avoid error
@@ -22,7 +22,7 @@ print(rotate_word("logic"))
 print(rotate_word("Code"))
 print(rotate_word("A"))
 
-`
+```
 
 #### Step-by-step procedure
 `def rotate_word(text)` → Defines a function that accepts a string parameter
