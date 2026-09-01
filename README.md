@@ -1,4 +1,4 @@
-#### 1) Word Rotation Problem - Creates a function that shifts the first letter of a word to the end.
+#### 1) **Word Rotation Problem** - Creates a function that shifts the first letter of a word to the end.
 
 ```python
 
@@ -38,7 +38,7 @@ odeC
 A
 ```
 
-#### 2) Username Builder Problem - Creates a function that convert all letters to lowercase, remove all spaces from the first name, remove all spaces from the last name, and join the processed first and last names using one period (.).
+#### 2) **Username Builder Problem** - Creates a function that convert all letters to lowercase, remove all spaces from the first name, remove all spaces from the last name, and join the processed first and last names using one period (.).
 
 ```python
 
@@ -70,7 +70,7 @@ alan.turing
 anamaria.deleon
 ```
 
-#### 3) Bookend Swap Problem
+#### 3) **Bookend Swap Problem** - Creates a function that packs all the elements/inputs into first, *middle, last and exchanges the position of the first and last element.
 
 ```python
 
@@ -98,4 +98,3 @@ print(swap_bookends([8, 3]))
 ('blue', 'green', 'red')
 (3, 8)
 ```
-
