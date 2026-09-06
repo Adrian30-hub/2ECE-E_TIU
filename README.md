@@ -1,4 +1,4 @@
-#### 1) **Reproducible Normalization Problem** - Creates a function that shifts the first letter of a word to the end.
+#### 1) **Reproducible Normalization Problem** - Generates a 10x10 array of cubed numbers from 1 to 100 and extracts elements divisible by 4.
 
 ```python
 np.random.seed(2112)
@@ -49,7 +49,7 @@ print("Standard Deviation:", round(X_normalized.std()))
 Standard Deviation: 1
 ```
 
-#### 2) **Cubes Divisible by 4 Problem** - Creates a function that convert all letters to lowercase, remove all spaces from the first name, remove all spaces from the last name, and join the processed first and last names using one period (.).
+#### 2) **Cubes Divisible by 4 Problem** - Generates a 10x10 array of cubed numbers from 1 to 100, extracts the elements divisible by 4, and saves the result to a file.
 
 ```python
 
@@ -117,7 +117,7 @@ div_by_4.shape
 
 ```
 
-#### 3) **Above-Mean Squares Problem** - Creates a function that convert all letters to lowercase, remove all spaces from the first name, remove all spaces from the last name, and join the processed first and last names using one period (.).
+#### 3) **Above-Mean Squares Problem** - Generates a 6x6 array of squared numbers from 1 to 36, extracts the elements greater than the mean, and saves the result to a file.
 
 ```python
 
@@ -137,7 +137,7 @@ np.save("above_mean", above_mean)
 - `S_mean = np.mean(S)` → Computes the mean value of all elements in array S
 - `above_mean = S[S > S_mean]` → Filters the array using boolean indexing to only extract elements that is greater than the mean
 - `above_mean.shape` → Returns the dimensions of the filtered array above_mean
-- `np.save("div_by_4", div_by_4)` → Saves the filtered NumPy array as .npy file
+- `np.save("above_mean", above_mean)` → Saves the filtered NumPy array as .npy file
 
 #### Outcome
 ```python
